@@ -1,8 +1,10 @@
 # Click Through Rate Prediction
 
-In Internet marketing, click-through rate (CTR) is a metric that measures the number of clicks advertisers receive on their ads per number of impressions.
+Imbalanced classes are a common problem in machine learning classification where there are a disproportionate ratio of observations in each class. Class imbalance can be found in many different areas including medical diagnosis, spam filtering, and fraud detection.
 
-In this repository we have done a research analysis based on the data provided by Criteo Labs. Criteo Labs is sharing 10 days’ worth of Avazu data for us to develop models predicting ad click-through rate (CTR). Given a user and the page he (or she) is visiting. what is the probability that he (or she) will click on a given ad? The goal of this analysis is to benchmark the most accurate ML algorithms for CTR estimation. Let’s get started!
+In this repository, we’ll look at five possible ways to handle an imbalanced class problem.
 
 ## Data
-The dataset can be found here (https://www.kaggle.com/c/avazu-ctr-prediction/data). The set should be downloaded and put into a foler named data in the repo.
+We will use the Credit Card Fraud Detection Dataset available on Kaggle for this analysis. The general description and data are available on [Kaggle](https://www.kaggle.com/tboyle10/methods-for-dealing-with-imbalanced-data).
+
+I created this notebook for learning purposes and all credit's go to Tara Boyel and his [tutorial](https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18).
